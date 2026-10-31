@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Menu — Yano Coffee</title>
+<meta name="description" content="The Yano Coffee menu: hot and cold coffee, frappés, milkshakes, juices, hot drinks and desserts, with prices.">
+<meta name="theme-color" content="#E3672B">
+<link rel="icon" href="img/yano-icon.png">
+<link rel="apple-touch-icon" href="img/yano-icon.png">
+<link rel="stylesheet" href="assets/yano.css"><link rel="stylesheet" href="assets/menu.css">
+
+</head>
+<body>
+<a class="skip" href="#main" data-en="Skip to content" data-ar="تخطّى للمحتوى">Skip to content</a>
+<header class="nav" data-solid>
+  <div class="nav-in">
+    <a class="brand" href="index.html" aria-label="Yano Coffee"><img src="img/yano-wordmark-dark.png" alt="Yano Coffee" width="92" height="30"></a>
+    <nav class="nav-links" aria-label="Main"><a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a><a href="menu.html" aria-current="page" data-en="Menu" data-ar="المنيو">Menu</a><a href="gallery.html" data-en="Gallery" data-ar="الصور">Gallery</a><a href="about.html" data-en="Our story" data-ar="عن يانو">Our story</a><a href="contact.html" data-en="Visit us" data-ar="زورنا">Visit us</a></nav>
+    <div class="nav-tools">
+      
+      <button class="lang" type="button" aria-label="Language">عربي</button>
+      <button class="burger" type="button" aria-label="Menu" aria-expanded="false"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="mhead">
+    <div class="shell mhead-row">
+      <div>
+        <span class="bar"></span>
+        <h1 data-en="Menu" data-ar="المنيو">Menu</h1>
+        <p class="lede" data-en="Everything we pour and serve, with prices in Egyptian pounds." data-ar="كل اللي بنقدمه، بأسعاره بالجنيه المصري.">Everything we pour and serve, with prices in Egyptian pounds.</p>
+      </div>
+      <label class="search">
+        <span class="sr" data-en="Search the menu" data-ar="دوّر في المنيو">Search the menu</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input id="q" type="search" autocomplete="off" enterkeyhint="search">
+      </label>
+    </div>
+  </section>
+  <div class="cats" id="cats"><div class="cats-in" id="cats-in" role="group" aria-label="Categories"></div></div>
+  <div class="shell" id="menu-root">
+    <!-- ===== MENU START — استبدل اللي بين START و END بملف المنيو بتاعك ===== -->
+  <section class="menu-section" id="cold-coffee">
+    <div class="section-head"><h2 data-en="Cold Coffee" data-ar="كولد كوفي">Cold Coffee</h2><small data-en="7 items" data-ar="7 أصناف">7 items</small></div>
+    <div class="grid">
+      <div class="row"><span class="name" data-en="Iced Spanish Latte" data-ar="سبانش لاتيه مثلج">Iced Spanish Latte</span><span class="dots"></span>130</div>
+      <div class="row"><span class="name" data-en="Iced Mocha Latte" data-ar="موكا لاتيه مثلج">Iced Mocha Latte</span><span class="dots"></span>130</div>
+      <div class="row"><span class="name" data-en="Iced Americano" data-ar="أمريكانو مثلج">Iced Americano</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Iced Matcha Latte" data-ar="ماتشا لاتيه مثلج">Iced Matcha Latte</span><span class="dots"></span>120</div>
+      <div class="row"><span class="name" data-en="Iced Pistachio Latte" data-ar="بستاشيو لاتيه مثلج">Iced Pistachio Latte</span><span class="dots"></span>150</div>
+      <div class="row"><span class="name" data-en="Iced Caramel Macchiato" data-ar="كراميل ماكياتو مثلج">Iced Caramel Macchiato</span><span class="dots"></span>90</div>
+      <div class="row"><span class="name" data-en="Iced Latte" data-ar="لاتيه مثلج">Iced Latte</span><span class="dots"></span>120</div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="frappe">
+    <div class="section-head"><h2 data-en="Frappé" data-ar="فرابيه">Frappé</h2><small data-en="7 items" data-ar="7 أصناف">7 items</small></div>
+    <div class="grid">
+      <div class="row"><span class="name" data-en="Caramel Frappé" data-ar="كراميل فرابيه">Caramel Frappé</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Vanilla Frappé" data-ar="فانيليا فرابيه">Vanilla Frappé</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Mocha Frappé" data-ar="موكا فرابيه">Mocha Frappé</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Pistachio Frappé" data-ar="بستاشيو فرابيه">Pistachio Frappé</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Matcha Frappé" data-ar="ماتشا فرابيه">Matcha Frappé</span><span class="dots"></span>150</div>
+      <div class="row"><span class="name" data-en="White Mocha Frappé" data-ar="وايت موكا فرابيه">White Mocha Frappé</span><span class="dots"></span>90</div>
+      <div class="row"><span class="name" data-en="Spanish Frappé" data-ar="سبانش فرابيه">Spanish Frappé</span><span class="dots"></span>100</div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="milkshakes">
+    <div class="section-head"><h2 data-en="Milkshakes" data-ar="ميلك شيك">Milkshakes</h2><small data-en="10 items" data-ar="10 أصناف">10 items</small></div>
+    <div class="grid">
+      <div class="row"><span class="name" data-en="Oreo" data-ar="أوريو">Oreo</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Strawberry" data-ar="فراولة">Strawberry</span><span class="dots"></span>90</div>
+      <div class="row"><span class="name" data-en="Blueberry" data-ar="بلوبيري">Blueberry</span><span class="dots"></span>90</div>
+      <div class="row"><span class="name" data-en="Mango" data-ar="مانجو">Mango</span><span class="dots"></span>90</div>
+      <div class="row"><span class="name" data-en="Passion Fruit" data-ar="باشن فروت">Passion Fruit</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Caramel" data-ar="كراميل">Caramel</span><span class="dots"></span>110</div>
+      <div class="row"><span class="name" data-en="Vanilla" data-ar="فانيليا">Vanilla</span><span class="dots"></span>110</div>
+      <div class="row"><span class="name" data-en="Lotus" data-ar="لوتس">Lotus</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Nutella" data-ar="نوتيلا">Nutella</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Pistachio" data-ar="بستاشيو">Pistachio</span><span class="dots"></span>100</div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="cold-drinks">
+    <div class="section-head"><h2 data-en="Cold Drinks" data-ar="مشروبات باردة">Cold Drinks</h2><small data-en="11 items" data-ar="11 صنف">11 items</small></div>
+    <div class="grid">
+      <div class="row"><span class="name" data-en="Iced Tea" data-ar="شاي مثلج">Iced Tea</span><span class="dots"></span>70</div>
+      <div class="row"><span class="name" data-en="Orange" data-ar="برتقال">Orange</span><span class="dots"></span>70</div>
+      <div class="row"><span class="name" data-en="Mango" data-ar="مانجو">Mango</span><span class="dots"></span>80</div>
+      <div class="row"><span class="name" data-en="Guava" data-ar="جوافة">Guava</span><span class="dots"></span>70</div>
+      <div class="row"><span class="name" data-en="Guava Mint" data-ar="جوافة بالنعناع">Guava Mint</span><span class="dots"></span>80</div>
+      <div class="row"><span class="name" data-en="Strawberry" data-ar="فراولة">Strawberry</span><span class="dots"></span>70</div>
+      <div class="row"><span class="name" data-en="Banana" data-ar="موز">Banana</span><span class="dots"></span>70</div>
+      <div class="row"><span class="name" data-en="Lemon Mint" data-ar="ليمون بالنعناع">Lemon Mint</span><span class="dots"></span>70</div>
+      <div class="row"><span class="name" data-en="Avocado with Honey" data-ar="أفوكادو بالعسل">Avocado with Honey</span><span class="dots"></span>110</div>
+      <div class="row"><span class="name" data-en="Watermelon" data-ar="بطيخ">Watermelon</span><span class="dots"></span>70</div>
+      <div class="row"><span class="name" data-en="Fresh Mango Juice" data-ar="عصير مانجو فريش">Fresh Mango Juice</span><span class="dots"></span>95</div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="hot-coffee">
+    <div class="section-head"><h2 data-en="Hot Coffee" data-ar="قهوة ساخنة">Hot Coffee</h2><small data-en="15 items" data-ar="15 صنف">15 items</small></div>
+    <div class="grid">
+      <div class="row"><span class="name" data-en="Espresso" data-ar="إسبريسو">Espresso</span><span class="dots"></span>70</div>
+      <div class="row"><span class="name" data-en="Double Espresso" data-ar="دابل إسبريسو">Double Espresso</span><span class="dots"></span>90</div>
+      <div class="row"><span class="name" data-en="Lungo" data-ar="لونجو">Lungo</span><span class="dots"></span>90</div>
+      <div class="row"><span class="name" data-en="Americano" data-ar="أمريكانو">Americano</span><span class="dots"></span>60</div>
+      <div class="row"><span class="name" data-en="Flat White" data-ar="فلات وايت">Flat White</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Cappuccino" data-ar="كابتشينو">Cappuccino</span><span class="dots"></span>90</div>
+      <div class="row"><span class="name" data-en="Spanish Latte" data-ar="سبانش لاتيه">Spanish Latte</span><span class="dots"></span>105</div>
+      <div class="row"><span class="name" data-en="White Mocha Latte" data-ar="وايت موكا لاتيه">White Mocha Latte</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Chocolate Mocha Latte" data-ar="شوكولاتة موكا لاتيه">Chocolate Mocha Latte</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Pistachio Latte" data-ar="بستاشيو لاتيه">Pistachio Latte</span><span class="dots"></span>110</div>
+      <div class="row"><span class="name" data-en="Turkish Coffee Single" data-ar="قهوة تركي سنجل">Turkish Coffee Single</span><span class="dots"></span>50</div>
+      <div class="row"><span class="name" data-en="Turkish Coffee Double" data-ar="قهوة تركي دابل">Turkish Coffee Double</span><span class="dots"></span>65</div>
+      <div class="row"><span class="name" data-en="Caramel Macchiato" data-ar="كراميل ماكياتو">Caramel Macchiato</span><span class="dots"></span>90</div>
+      <div class="row"><span class="name" data-en="Latte" data-ar="لاتيه">Latte</span><span class="dots"></span>90</div>
+      <div class="row"><span class="name" data-en="Macchiato" data-ar="ماكياتو">Macchiato</span><span class="dots"></span>75</div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="smoothie">
+    <div class="section-head"><h2 data-en="Smoothie" data-ar="سموذي">Smoothie</h2><small data-en="6 items" data-ar="6 أصناف">6 items</small></div>
+    <div class="grid">
+      <div class="row"><span class="name" data-en="Smoothie Watermelon" data-ar="سموذي بطيخ">Smoothie Watermelon</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Smoothie Mango" data-ar="سموذي مانجو">Smoothie Mango</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Smoothie Strawberry" data-ar="سموذي فراولة">Smoothie Strawberry</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Smoothie Orange" data-ar="سموذي برتقال">Smoothie Orange</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Smoothie Guava" data-ar="سموذي جوافة">Smoothie Guava</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Smoothie Green Apple" data-ar="سموذي تفاح أخضر">Smoothie Green Apple</span><span class="dots"></span>100</div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="soft-drinks">
+    <div class="section-head"><h2 data-en="Soft Drinks" data-ar="مشروبات غازية">Soft Drinks</h2><small data-en="11 items" data-ar="11 صنف">11 items</small></div>
+    <div class="grid">
+      <div class="row"><span class="name" data-en="Pepsi" data-ar="بيبسي">Pepsi</span><span class="dots"></span>50</div>
+      <div class="row"><span class="name" data-en="Fury" data-ar="فيوري">Fury</span><span class="dots"></span>50</div>
+      <div class="row"><span class="name" data-en="7up" data-ar="سفن أب">7up</span><span class="dots"></span>50</div>
+      <div class="row"><span class="name" data-en="Mirinda Orange" data-ar="ميرندا برتقال">Mirinda Orange</span><span class="dots"></span>50</div>
+      <div class="row"><span class="name" data-en="Mirinda Apple" data-ar="ميرندا تفاح">Mirinda Apple</span><span class="dots"></span>50</div>
+      <div class="row"><span class="name" data-en="Birell" data-ar="بيريل">Birell</span><span class="dots"></span>50</div>
+      <div class="row"><span class="name" data-en="Fayrouz" data-ar="فيروز">Fayrouz</span><span class="dots"></span>50</div>
+      <div class="row"><span class="name" data-en="Water" data-ar="مياه">Water</span><span class="dots"></span>20</div>
+      <div class="row"><span class="name" data-en="Red Bull" data-ar="ريد بول">Red Bull</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Red Bull with Flavor" data-ar="ريد بول بنكهة">Red Bull with Flavor</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Mojito Red Bull with Flavor" data-ar="موهيتو ريد بول بنكهة">Mojito Red Bull with Flavor</span><span class="dots"></span>130</div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="hot-drink">
+    <div class="section-head"><h2 data-en="Hot Drinks" data-ar="مشروبات ساخنة">Hot Drinks</h2><small data-en="18 items" data-ar="18 صنف">18 items</small></div>
+    <div class="grid">
+      <div class="row"><span class="name" data-en="Matcha" data-ar="ماتشا">Matcha</span><span class="dots"></span>70</div>
+      <div class="row"><span class="name" data-en="Ahmad Tea" data-ar="شاي أحمد">Ahmad Tea</span><span class="dots"></span>45</div>
+      <div class="row"><span class="name" data-en="Lipton Tea" data-ar="شاي ليبتون">Lipton Tea</span><span class="dots"></span>45</div>
+      <div class="row"><span class="name" data-en="Anise" data-ar="يانسون">Anise</span><span class="dots"></span>45</div>
+      <div class="row"><span class="name" data-en="Cappuccino" data-ar="كابتشينو">Cappuccino</span><span class="dots"></span>110</div>
+      <div class="row"><span class="name" data-en="Hot Chocolate" data-ar="هوت شوكولاتة">Hot Chocolate</span><span class="dots"></span>70</div>
+      <div class="row"><span class="name" data-en="Hot White Chocolate" data-ar="هوت وايت شوكولاتة">Hot White Chocolate</span><span class="dots"></span>75</div>
+      <div class="row"><span class="name" data-en="Green Tea" data-ar="شاي أخضر">Green Tea</span><span class="dots"></span>45</div>
+      <div class="row"><span class="name" data-en="Hot Cider" data-ar="سيدر ساخن">Hot Cider</span><span class="dots"></span>50</div>
+      <div class="row"><span class="name" data-en="French Coffee" data-ar="قهوة فرنساوي">French Coffee</span><span class="dots"></span>75</div>
+      <div class="row"><span class="name" data-en="Hazelnut Coffee" data-ar="قهوة بندق">Hazelnut Coffee</span><span class="dots"></span>75</div>
+      <div class="row"><span class="name" data-en="Caramel Coffee" data-ar="قهوة كراميل">Caramel Coffee</span><span class="dots"></span>80</div>
+      <div class="row"><span class="name" data-en="Diet Coffee" data-ar="دايت كوفي">Diet Coffee</span><span class="dots"></span>45</div>
+      <div class="row"><span class="name" data-en="Karak Tea" data-ar="شاي كرك">Karak Tea</span><span class="dots"></span>75</div>
+      <div class="row"><span class="name" data-en="Mixed Herbs" data-ar="أعشاب مشكلة">Mixed Herbs</span><span class="dots"></span>55</div>
+      <div class="row"><span class="name" data-en="Sahlab" data-ar="سحلب">Sahlab</span><span class="dots"></span>80</div>
+      <div class="row"><span class="name" data-en="Sahlab with Nuts" data-ar="سحلب بالمكسرات">Sahlab with Nuts</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Hot Lemon" data-ar="ليمون ساخن">Hot Lemon</span><span class="dots"></span>35</div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="desserts">
+    <div class="section-head"><h2 data-en="Desserts" data-ar="حلويات">Desserts</h2><small data-en="3 items" data-ar="3 أصناف">3 items</small></div>
+    <div class="grid">
+      <div class="row"><span class="name" data-en="Molten Cake" data-ar="مولتن كيك">Molten Cake</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="Cheesecake" data-ar="تشيز كيك">Cheesecake</span><span class="dots"></span>75</div>
+      <div class="row"><span class="name" data-en="Waffle" data-ar="وافل">Waffle</span><span class="dots"></span>90</div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="shisha">
+    <div class="section-head"><h2 data-en="Shisha" data-ar="شيشة">Shisha</h2><small data-en="4 items" data-ar="4 أصناف">4 items</small></div>
+    <div class="grid">
+      <div class="row"><span class="name" data-en="Fruit Shisha" data-ar="شيشة فواكه">Fruit Shisha</span><span class="dots"></span>100</div>
+      <div class="row"><span class="name" data-en="لي طبي" data-ar="لي طبي">لي طبي</span><span class="dots"></span>20</div>
+      <div class="row"><span class="name" data-en="Mix Shisha" data-ar="شيشة مكس">Mix Shisha</span><span class="dots"></span>110</div>
+      <div class="row"><span class="name" data-en="Maasel Shisha" data-ar="شيشة معسل">Maasel Shisha</span><span class="dots"></span>30</div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="extra">
+    <div class="section-head"><h2 data-en="Extras" data-ar="إضافات">Extras</h2><small data-en="8 items" data-ar="8 أصناف">8 items</small></div>
+    <div class="grid">
+      <div class="row"><span class="name" data-en="Milk" data-ar="لبن">Milk</span><span class="dots"></span>20</div>
+      <div class="row"><span class="name" data-en="Flavor" data-ar="نكهة">Flavor</span><span class="dots"></span>40</div>
+      <div class="row"><span class="name" data-en="Extra Flavor for Iced Coffee" data-ar="نكهة إضافية للقهوة المثلجة">Extra Flavor for Iced Coffee</span><span class="dots"></span>25</div>
+      <div class="row"><span class="name" data-en="Nuts" data-ar="مكسرات">Nuts</span><span class="dots"></span>35</div>
+      <div class="row"><span class="name" data-en="Fruit" data-ar="فاكهة">Fruit</span><span class="dots"></span>20</div>
+      <div class="row"><span class="name" data-en="Sauce" data-ar="صوص">Sauce</span><span class="dots"></span>30</div>
+      <div class="row"><span class="name" data-en="Whipped Cream" data-ar="كريمة مخفوقة">Whipped Cream</span><span class="dots"></span>20</div>
+      <div class="row"><span class="name" data-en="Ice Cream" data-ar="آيس كريم">Ice Cream</span><span class="dots"></span>40</div>
+    </div>
+  </section>
+    <!-- ===== MENU END ===== -->
+  </div>
+  <p id="live" class="sr" aria-live="polite"></p>
+  <section class="band visit-band">
+    <div class="shell visit-in">
+      <div>
+        <h2 data-en="Come sit with us" data-ar="تعالى اقعد معانا">Come sit with us</h2>
+        <p data-en="Open every day, from the first pour to the last order." data-ar="فاتحين كل يوم، من أول فنجان لآخر طلب.">Open every day, from the first pour to the last order.</p>
+        <div class="cta">
+          <a class="btn white" data-en="Our location" data-ar="موقعنا" href="contact.html">Our location</a>
+          <a class="btn outline-dark" data-en="Contact us" data-ar="كلمنا" href="contact.html#contact">Contact us</a>
+        </div>
+      </div>
+      <div class="visit-card rise">
+        <h3 data-en="Hours" data-ar="مواعيد العمل">Hours</h3>
+        <div class="hours"><div><span data-en="Saturday – Thursday" data-ar="السبت – الخميس">Saturday – Thursday</span><span dir="ltr">07:00 – 02:00</span></div><div><span data-en="Friday" data-ar="الجمعة">Friday</span><span dir="ltr">13:00 – 02:00</span></div></div>
+        <p class="addr" data-en="El Sahafa St, Al Obour City, Qalyubia" data-ar="شارع الصحافة، مدينة العبور، القليوبية">El Sahafa St, Al Obour City, Qalyubia</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="foot">
+  <div class="shell">
+    <div class="foot-grid">
+      <div>
+        <img class="foot-logo" src="img/yano-wordmark-dark.png" alt="Yano Coffee — coffee and more" width="106" height="34" loading="lazy">
+        <p class="dim" data-en="Coffee and more. Open every day, from the first pour to the last order." data-ar="قهوة وأكتر. فاتحين كل يوم، من أول فنجان لآخر طلب." style="margin:14px 0 18px;max-width:34ch">Coffee and more. Open every day, from the first pour to the last order.</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/yano_coffee" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.06 1.8.25 2.2.42.6.22 1 .48 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c0 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2 0-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c0-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2m0 3.2A6.6 6.6 0 1 0 18.6 12 6.6 6.6 0 0 0 12 5.4m0 10.9A4.3 4.3 0 1 1 16.3 12 4.3 4.3 0 0 1 12 16.3m6.9-11.1a1.5 1.5 0 1 1-1.5-1.5 1.5 1.5 0 0 1 1.5 1.5"/></svg>
+            Instagram
+          </a>
+          <a href="https://www.facebook.com/yanocoffeeofficia" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.7-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12"/></svg>
+            Facebook
+          </a>
+          <a href="https://wa.me/201000000000" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2m5.8 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1a13 13 0 0 1-5.7-4.6 6.5 6.5 0 0 1-1.4-3.4 3.7 3.7 0 0 1 1.1-2.7.9.9 0 0 1 .7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2 0 .4-.1.5l-.4.5c-.1.2-.3.3-.1.6a9.6 9.6 0 0 0 3.8 3.2c.3.2.5.1.6 0l.8-1c.2-.2.3-.2.6-.1l2 1c.2.1.4.2.4.3a2 2 0 0 1-.3 1.2"/></svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4 data-en="Pages" data-ar="الصفحات">Pages</h4>
+        <ul>
+          <li><a data-en="Menu" data-ar="المنيو" href="menu.html">Menu</a></li>
+          <li><a data-en="Gallery" data-ar="الصور" href="gallery.html">Gallery</a></li>
+          <li><a data-en="Our story" data-ar="عن يانو" href="about.html">Our story</a></li>
+          <li><a data-en="Visit us" data-ar="زورنا" href="contact.html">Visit us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-en="Hours" data-ar="مواعيد العمل">Hours</h4>
+        <ul>
+          <li class="dim"><span data-en="Saturday – Thursday" data-ar="السبت – الخميس">Saturday – Thursday</span> · <span dir="ltr">07:00 – 02:00</span></li>
+          <li class="dim"><span data-en="Friday" data-ar="الجمعة">Friday</span> · <span dir="ltr">13:00 – 02:00</span></li>
+          <li><a href="tel:+201000000000" dir="ltr">+20 100 000 0000</a></li>
+          <li data-en="El Sahafa St, Al Obour City" data-ar="شارع الصحافة، مدينة العبور" class="dim">El Sahafa St, Al Obour City</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <span>© 2026 Yano Coffee</span>
+      <span data-en="Always a good idea" data-ar="دايمًا فكرة حلوة">Always a good idea</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/yano.js"></script>
+<script src="assets/menu.js"></script>
+</body>
+</html>

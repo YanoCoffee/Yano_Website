@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb04a"/><stop offset="1" stop-color="#f26a1b"/></linearGradient>
+<linearGradient id="cup" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff6ea"/><stop offset=".6" stop-color="#f3e3cf"/><stop offset="1" stop-color="#d9c1a6"/></linearGradient>
+<linearGradient id="or" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff8a3d"/><stop offset=".6" stop-color="#f1531c"/><stop offset="1" stop-color="#b53c0c"/></linearGradient>
+<clipPath id="cc"><path d="M130 130 L270 130 L250 340 Q248 352 236 352 L164 352 Q152 352 150 340 Z"/></clipPath>
+</defs>
+<rect width="400" height="400" fill="url(#bg)"/>
+<g stroke="#fff" stroke-opacity=".12" stroke-width="14"><path d="M-20 60 L120 -20"/><path d="M-20 130 L190 -20"/><path d="M-20 200 L260 -20"/><path d="M300 420 L430 330"/><path d="M220 420 L430 280"/></g>
+<ellipse cx="200" cy="362" rx="95" ry="10" fill="#000" opacity=".18"/>
+<path d="M130 130 L270 130 L250 340 Q248 352 236 352 L164 352 Q152 352 150 340 Z" fill="url(#cup)" opacity=".95"/>
+<g clip-path="url(#cc)"><rect x="120" y="150" width="160" height="200" fill="#e8c9a0"/><rect x="120" y="150" width="160" height="80" fill="#b98457"/><rect x="120" y="150" width="160" height="26" fill="#7b4a2a"/><g fill="#fff" opacity=".35"><rect x="150" y="190" width="34" height="34" rx="6"/><rect x="204" y="214" width="30" height="30" rx="6"/><rect x="170" y="250" width="32" height="30" rx="6"/></g><rect x="120" y="268" width="160" height="62" fill="url(#or)"/><text x="200" y="305" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="17" fill="#fff">YAN<tspan fill="#ffd9b0">O</tspan></text></g>
+<path d="M130 130 L270 130" stroke="#fff" stroke-width="3" opacity=".6"/>
+<path d="M142 150 L158 330" stroke="#fff" stroke-width="6" opacity=".35" stroke-linecap="round"/><path d="M122 120 Q122 106 140 106 L260 106 Q278 106 278 120 L278 132 L122 132 Z" fill="#5a3b28"/><ellipse cx="200" cy="106" rx="68" ry="9" fill="#7a5238"/><path d="M222 104 L248 36" stroke="#222" stroke-width="10" stroke-linecap="round"/>
+</svg>

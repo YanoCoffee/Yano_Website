@@ -1,0 +1,480 @@
+{
+ "sections": [
+  {
+   "id": "cold-coffee",
+   "title": "Cold Coffee",
+   "ar": "القهوة الباردة",
+   "items": [
+    {
+     "name": "Iced Spanish Latte",
+     "price": 105
+    },
+    {
+     "name": "Iced Mocha Latte",
+     "price": 100
+    },
+    {
+     "name": "Iced Pistachio Latte",
+     "price": 105
+    },
+    {
+     "name": "Iced Caramel Macchiato",
+     "price": 90
+    },
+    {
+     "name": "Iced Latte",
+     "price": 90
+    }
+   ]
+  },
+  {
+   "id": "frappe",
+   "title": "Frappe",
+   "ar": "فرابيه",
+   "items": [
+    {
+     "name": "Caramel Frappe",
+     "price": 90
+    },
+    {
+     "name": "Vanilla Frappe",
+     "price": 90
+    },
+    {
+     "name": "Mocha Frappe",
+     "price": 90
+    },
+    {
+     "name": "Pistachio Frappe",
+     "price": 100
+    },
+    {
+     "name": "Matcha Frappe",
+     "price": 100
+    },
+    {
+     "name": "White Mocha Frappe",
+     "price": 90
+    },
+    {
+     "name": "Spanish Frappe",
+     "price": 80
+    }
+   ]
+  },
+  {
+   "id": "milkshakes",
+   "title": "Milkshakes",
+   "ar": "ميلك شيك",
+   "items": [
+    {
+     "name": "Oreo",
+     "price": 100
+    },
+    {
+     "name": "Strawberry",
+     "price": 90
+    },
+    {
+     "name": "Blueberry",
+     "price": 90
+    },
+    {
+     "name": "Mango",
+     "price": 90
+    },
+    {
+     "name": "Passion Fruit",
+     "price": 100
+    },
+    {
+     "name": "Caramel",
+     "price": 90
+    },
+    {
+     "name": "Vanilla",
+     "price": 90
+    },
+    {
+     "name": "Lotus",
+     "price": 100,
+     "photo": "img/lotus-frappe.jpg",
+     "featured": true
+    },
+    {
+     "name": "Nutella",
+     "price": 100
+    },
+    {
+     "name": "Pistachio",
+     "price": 100
+    }
+   ]
+  },
+  {
+   "id": "cold-drinks",
+   "title": "Cold Drinks",
+   "ar": "مشروبات باردة",
+   "items": [
+    {
+     "name": "Iced Tee",
+     "price": 65
+    },
+    {
+     "name": "Iced Matcha",
+     "price": 80
+    },
+    {
+     "name": "Smoothie Watermelon",
+     "price": 80
+    },
+    {
+     "name": "Smoothie Mango",
+     "price": 90,
+     "photo": "img/mango-bliss.jpg",
+     "featured": true
+    },
+    {
+     "name": "Smoothie Strawberry",
+     "price": 80
+    },
+    {
+     "name": "Smoothie Orange",
+     "price": 80
+    },
+    {
+     "name": "Redbull",
+     "price": 100
+    },
+    {
+     "name": "Redbull With Favor",
+     "price": 100
+    },
+    {
+     "name": "Orange",
+     "price": 70
+    },
+    {
+     "name": "Mango",
+     "price": 80
+    },
+    {
+     "name": "Guava",
+     "price": 70
+    },
+    {
+     "name": "Guava Mint",
+     "price": 80
+    },
+    {
+     "name": "Strawberry",
+     "price": 70
+    },
+    {
+     "name": "Banana",
+     "price": 70
+    },
+    {
+     "name": "Lemon Mint",
+     "price": 70
+    },
+    {
+     "name": "Avocado with Honey",
+     "price": 110
+    },
+    {
+     "name": "Watermelon",
+     "price": 70
+    },
+    {
+     "name": "Fresh Mango Juice",
+     "price": 95
+    },
+    {
+     "name": "Smoothie",
+     "price": 120
+    },
+    {
+     "name": "Mojito Red Bull",
+     "price": 130
+    }
+   ]
+  },
+  {
+   "id": "hot-coffee",
+   "title": "Hot Coffee",
+   "ar": "القهوة الساخنة",
+   "items": [
+    {
+     "name": "Espresso",
+     "price": 80
+    },
+    {
+     "name": "Lungo",
+     "price": 90
+    },
+    {
+     "name": "Americano",
+     "price": 60
+    },
+    {
+     "name": "Flat white",
+     "price": 100
+    },
+    {
+     "name": "Cappuccino",
+     "price": 90
+    },
+    {
+     "name": "Spanish latte",
+     "price": 105
+    },
+    {
+     "name": "White Mocha Latte",
+     "price": 100
+    },
+    {
+     "name": "Chocolate Mocha Latte",
+     "price": 100
+    },
+    {
+     "name": "Pistachio Latte",
+     "price": 105
+    },
+    {
+     "name": "Turkish Coffee single",
+     "price": 40
+    },
+    {
+     "name": "Turkish Coffee Double",
+     "price": 55
+    },
+    {
+     "name": "Caramel Macchiato",
+     "price": 90
+    },
+    {
+     "name": "Latte",
+     "price": 90,
+     "photo": "img/latte-shadow.jpg",
+     "featured": true
+    },
+    {
+     "name": "Macchiato",
+     "price": 70
+    }
+   ]
+  },
+  {
+   "id": "soft-drinks",
+   "title": "Soft Drinks",
+   "ar": "مشروبات غازية",
+   "items": [
+    {
+     "name": "Pepsi",
+     "price": 50
+    },
+    {
+     "name": "Fury",
+     "price": 50
+    },
+    {
+     "name": "7up",
+     "price": 50
+    },
+    {
+     "name": "Mirinda Orange",
+     "price": 50
+    },
+    {
+     "name": "Mirinda Apple",
+     "price": 50
+    },
+    {
+     "name": "Birell",
+     "price": 50
+    },
+    {
+     "name": "Fayrouz",
+     "price": 50
+    }
+   ]
+  },
+  {
+   "id": "hot-drink",
+   "title": "Hot Drink",
+   "ar": "مشروبات ساخنة",
+   "items": [
+    {
+     "name": "Matcha",
+     "price": 70
+    },
+    {
+     "name": "Ahmad Tea",
+     "price": 45
+    },
+    {
+     "name": "Lipton Tea",
+     "price": 40
+    },
+    {
+     "name": "Anise",
+     "price": 45
+    },
+    {
+     "name": "Hot Chocolate",
+     "price": 70
+    },
+    {
+     "name": "Hot White Chocolate",
+     "price": 75
+    },
+    {
+     "name": "Green Tea",
+     "price": 45
+    },
+    {
+     "name": "Hot Cider",
+     "price": 50
+    },
+    {
+     "name": "French Coffee",
+     "price": 50
+    },
+    {
+     "name": "Hazelnut Coffee",
+     "price": 50
+    },
+    {
+     "name": "Caramel Coffee",
+     "price": 50
+    },
+    {
+     "name": "Diet Coffee",
+     "price": 40
+    },
+    {
+     "name": "Karak Tea",
+     "price": 55
+    },
+    {
+     "name": "Mixed Herbs",
+     "price": 40
+    },
+    {
+     "name": "Sahlab",
+     "price": 55
+    },
+    {
+     "name": "Sahlab with Nuts",
+     "price": 65
+    },
+    {
+     "name": "Cardamom",
+     "price": null
+    },
+    {
+     "name": "Clove",
+     "price": null
+    },
+    {
+     "name": "Nutmeg",
+     "price": null
+    },
+    {
+     "name": "Saffron",
+     "price": null
+    },
+    {
+     "name": "Mastic",
+     "price": null
+    },
+    {
+     "name": "Hot Lemon",
+     "price": 30
+    }
+   ]
+  },
+  {
+   "id": "desserts",
+   "title": "Desserts",
+   "ar": "حلويات",
+   "items": [
+    {
+     "name": "Molten Cake",
+     "price": 100
+    },
+    {
+     "name": "Cheese cake",
+     "price": 75
+    },
+    {
+     "name": "Waffle",
+     "price": 90
+    }
+   ]
+  },
+  {
+   "id": "shisha",
+   "title": "Shisha",
+   "ar": "شيشة",
+   "items": [
+    {
+     "name": "Fruit Shisha",
+     "price": 100
+    },
+    {
+     "name": "لي طبي",
+     "price": 20
+    },
+    {
+     "name": "Mix Shisha",
+     "price": 110
+    },
+    {
+     "name": "Maasel Shisha",
+     "price": 20
+    }
+   ]
+  },
+  {
+   "id": "extra",
+   "title": "Extra",
+   "ar": "إضافات",
+   "items": [
+    {
+     "name": "Milk",
+     "price": 20
+    },
+    {
+     "name": "Flavor",
+     "price": 40
+    },
+    {
+     "name": "Extra Flavor for Ice Coffee",
+     "price": 25
+    },
+    {
+     "name": "Nuts",
+     "price": 35
+    },
+    {
+     "name": "Fruit",
+     "price": 20
+    },
+    {
+     "name": "Sauce",
+     "price": 30
+    },
+    {
+     "name": "Whipping Cream",
+     "price": 20
+    },
+    {
+     "name": "Ice Cream",
+     "price": 40
+    }
+   ]
+  }
+ ]
+}
